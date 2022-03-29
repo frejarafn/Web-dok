@@ -169,6 +169,13 @@ background: linear-gradient(#2b1055,#7597de) ;
    width: 100%;
    height: 100px;
    z-index: 1000;
+
+
+}
+
+#start::before {
+  background: linear-gradient(to top,#1c0522,transparent);
+
 }
 
 #dream img {
@@ -179,6 +186,10 @@ background: linear-gradient(#2b1055,#7597de) ;
    height: 100%;
    object-fit: cover;
    pointer-events: none;
+}
+#dream img#moon {
+  mix-blend-mode: screen;
+
 }
 
 #dream img#himmel {
