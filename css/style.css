@@ -71,7 +71,7 @@ body, html {
     }
   }
 
-/*  */
+/* animation af bølgende ord  start*/
 
   .section1 {
     font-family: "Archivo Black", sans-serif;
@@ -130,3 +130,7 @@ body, html {
   .words span:nth-child(7) {
     animation-delay: 3s;
   }
+
+  /* animation slut */
+
+ 
