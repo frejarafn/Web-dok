@@ -53,6 +53,16 @@ body, html {
     font: 20px "Lato", sans-serif;
     color: #111;
   }
+
+  p{
+    font: 20px "Lato", sans-serif; 
+    width: 60%;
+    padding-right: 4px;
+    
+    
+
+
+  }
   
   /* Turn off parallax scrolling for tablets and phones */
   @media only screen and (max-device-width: 1024px) {
