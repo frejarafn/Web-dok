@@ -89,13 +89,13 @@ body, html {
 
   .section1 {
     font-family: "Archivo Black", sans-serif;
-    background: linear-gradient(to top,#1c0522,transparent);
+    background: #43495f;
     display: flex;
     flex-direction: column;
     height: 80vh;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to top,#1c0522,transparent);
+    
   }
 
   .words {
