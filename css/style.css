@@ -43,7 +43,9 @@ body, html {
  
   
   .bgimg-2 {
-    background-color: #43495f;
+    background-color: #12073b;
+    background-image: url("stars.png");
+
     min-height: 400px;
   }
   
