@@ -16,7 +16,10 @@ body, html {
   }
 
   p{
-    font: 20px "Lato", sans-serif; 
+    font: 20px "Lato", sans-serif;
+    line-height: 2em;
+    width: 60%; 
+    padding-left: 12em;
   
   }
 
