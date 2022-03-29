@@ -98,6 +98,16 @@ body, html {
     
   }
 
+  .section {
+    background: #43495f;
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
   .words {
     color: #43495f;
     font-size: 0;
