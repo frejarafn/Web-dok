@@ -2,7 +2,7 @@
 // stars er stars:)
 let stars = document.getElementById('stars');
 let moon = document.getElementById('moon');
-let mountains_behind = document.getElementById('mountains_behind');
+let himmel = document.getElementById('himmel');
 let text = document.getElementById('text');
 
 window.addEventListener('scroll', function(){
