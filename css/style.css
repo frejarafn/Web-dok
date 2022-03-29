@@ -26,6 +26,9 @@ body, html {
 
   .border{
     font-family: teeshirt, sans-serif;
+    
+
+    
   }
   
   .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -91,6 +94,7 @@ body, html {
     height: 80vh;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to top,#1c0522,transparent);
   }
 
   .words {
