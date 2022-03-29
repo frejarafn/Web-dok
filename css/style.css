@@ -1,54 +1,14 @@
 
+
+
 body, html {
     height: 100%;
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
- 
-  }
-  
-  .bgimg-1, .bgimg-2, .bgimg-3 {
-    position: relative;
-    /* opacity: 0.65; */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-  }
-  .bgimg-1 {
-    background-image: url("sky.gif");
-    min-height: 100%;
-  }
-  
-  .bgimg-2 {
-    background-color: #43495f;
-    min-height: 400px;
-  }
-  
-  .bgimg-3 {
-    background-image: url("img_parallax3.jpg");
-    min-height: 400px;
+   overflow-x: hidden;
+
   }
 
-  
-  
-  .caption {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-  }
-  
-  .caption span.border {
-    background-color: #111;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-  }
-  
   h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -57,13 +17,66 @@ body, html {
   }
 
   p{
-    font: 20px "Lato", sans-serif; 
- 
-    
-    
-
-
+    font: 20px "Lato", sans-serif;
+    line-height: 2em;
+    width: 60%; 
+    padding-left: 12em;
+  
   }
+
+
+  .border{
+    font-family: teeshirt, sans-serif;
+   
+  }
+  
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+  }
+  .bgimg-1 {
+    background-image: url("sky.gif");
+    min-height: 100%;
+  }
+ 
+  
+  .bgimg-2 {
+    background-color: #12073b;
+    background-image: url("stars.png");
+    min-height: 600px;
+  }
+  
+  .bgimg-3 {
+    background-image: url("img_parallax3.jpg");
+    min-height: 400px;
+  }
+
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    
+  }
+
+
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    
+  }
+  
+ 
   
   /* Turn off parallax scrolling for tablets and phones */
   @media only screen and (max-device-width: 1024px) {
@@ -79,9 +92,10 @@ body, html {
     background: #43495f;
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 150vh;
     justify-content: center;
     align-items: center;
+    
   }
 
   .words {
@@ -134,4 +148,61 @@ body, html {
 
   /* animation slut */
 
+ /* Forsøg på stjernehimmelhalløj */
  
+ #dream {
+  position: relative; 
+  width: 100%;
+  height: 100vh;
+padding: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+/* overflow: hidden; */
+background: linear-gradient(#2b1055,#7597de) ;
+
+}
+#dream::before {
+   content: '';
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 100px;
+   z-index: 1000;
+
+
+}
+
+#start::before {
+  background: linear-gradient(to top,#1c0522,transparent);
+
+}
+
+#dream img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   /* width: 100%; */
+   height: 100%;
+   object-fit: cover;
+   pointer-events: none;
+}
+#dream img#moon {
+  mix-blend-mode: screen;
+
+}
+
+#dream img#himmel {
+   z-index: 10;
+   /* overflow-x: hidden; */
+   
+}
+
+#text {
+  position: absolute;
+  text-align: center;
+  color: rgb(243, 17, 17);
+  white-space: nowrap;
+  font-size: 5vw;
+  z-index: 9;
+  }
