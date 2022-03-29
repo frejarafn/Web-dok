@@ -89,19 +89,13 @@ body, html {
 
   .section1 {
     font-family: "Archivo Black", sans-serif;
-<<<<<<< Updated upstream
     background: #43495f;
-=======
->>>>>>> Stashed changes
     display: flex;
     flex-direction: column;
     height: 80vh;
     justify-content: center;
     align-items: center;
-<<<<<<< Updated upstream
     
-=======
->>>>>>> Stashed changes
   }
 
   .words {
