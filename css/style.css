@@ -3,7 +3,7 @@ body, html {
     height: 100%;
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
-    color: #777;
+ 
   }
   
   .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -21,7 +21,7 @@ body, html {
   }
   
   .bgimg-2 {
-    background-image: url("guld.png");
+    background-color: #43495f;
     min-height: 400px;
   }
   
@@ -29,6 +29,8 @@ body, html {
     background-image: url("img_parallax3.jpg");
     min-height: 400px;
   }
+
+  
   
   .caption {
     position: absolute;
@@ -56,8 +58,7 @@ body, html {
 
   p{
     font: 20px "Lato", sans-serif; 
-    width: 60%;
-    padding-right: 4px;
+ 
     
     
 
@@ -70,3 +71,67 @@ body, html {
       background-attachment: scroll;
     }
   }
+
+/* animation af bølgende ord  start - https://codepen.io/cbanlawi/pen/MWbemYP*/
+
+  .section1 {
+    font-family: "Archivo Black", sans-serif;
+    background: #43495f;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .words {
+    color: #43495f;
+    font-size: 0;
+    line-height: 1.5;
+  }
+  
+  .words span {
+    font-size: 5rem;
+    display: inline-block;
+    animation: move 3s ease-in-out infinite;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translate(-30%, 0);
+    }
+    50% {
+      text-shadow: 0 25px 50px rgba(36, 4, 4, 0.75);
+    }
+    100% {
+      transform: translate(30%, 0);
+    }
+  }
+  
+  .words span:nth-child(2) {
+    animation-delay: 4s;
+  }
+  
+  .words span:nth-child(3) {
+    animation-delay: 1s;
+  }
+  
+  .words span:nth-child(4) {
+    animation-delay: 1.5s;
+  }
+  
+  .words span:nth-child(5) {
+    animation-delay: 2s;
+  }
+  
+  .words span:nth-child(6) {
+    animation-delay: 2.5s;
+  }
+  
+  .words span:nth-child(7) {
+    animation-delay: 3s;
+  }
+
+  /* animation slut */
+
+ 
