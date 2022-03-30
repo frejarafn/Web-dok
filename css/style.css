@@ -1,167 +1,169 @@
+  /* FORSØG PÅ STJERNEHIMMEL */
+  @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
 
-
-
-body, html {
-    height: 100%;
-    margin: 0;
+body {
+    min-height: 100vh;
     font: 400 15px/1.8 "Lato", sans-serif;
-   overflow-x: hidden;
+    overflow-x: hidden;
+}
 
-  }
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
 
-  h3 {
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
-    color: #111;
-  }
-
-  p{
-    font: 20px "Lato", sans-serif;
-    line-height: 2em;
-    width: 60%; 
-    padding-left: 15em;
-    
-  }
-
-
-
-  .border{
-    font-family: teeshirt, sans-serif;
-   
-  }
+p{
+  font: 20px "Lato", sans-serif;
+  line-height: 2em;
+  width: 60%; 
+  padding-left: 15em;
   
+}
+
+.border{
+  font-family: teeshirt, sans-serif;
+ 
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+.bgimg-1 {
+  background-image: url("sky.gif");
+  min-height: 100%;
+}
+
+
+.bgimg-2 {
+  background-color: #12073b;
+  background-image: url("stars.png");
+  min-height: 600px;
+}
+
+.bgimg-3 {
+  background-image: url("img_hoparallax3.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-  
+    background-attachment: scroll;
   }
-  .bgimg-1 {
-    background-image: url("sky.gif");
-    min-height: 100%;
-  }
- 
-  
-  .bgimg-2 {
-    background-color: #12073b;
-    background-image: url("stars.png");
-    min-height: 600px;
-  }
-  
-  .bgimg-3 {
-    background-image: url("img_hoparallax3.jpg");
-    min-height: 400px;
-  }
-
-  .caption {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-    
-  }
-
-
-  .caption span.border {
-    background-color: #111;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-    
-  }
-  
- 
-  
-  /* Turn off parallax scrolling for tablets and phones */
-  @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
-      background-attachment: scroll;
-    }
-  }
+}
 
 /* animation af bølgende ord  start - https://codepen.io/cbanlawi/pen/MWbemYP*/
 
-  .section1 {
-    font-family: "Archivo Black", sans-serif;
-    background: #43495f;
-    display: flex;
-    flex-direction: column;
-    height: 150vh;
-    justify-content: center;
-    align-items: center;
-    
-  }
+.section1 {
+  font-family: "Archivo Black", sans-serif;
+  background: #43495f;
+  display: flex;
+  flex-direction: column;
+  height: 150vh;
+  justify-content: center;
+  align-items: center;
+  
+}
 
-  .section {
-    background: #43495f;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    
-  }
+.section {
+  background: #43495f;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  
+}
 
-  .words {
-    color: #43495f;
-    font-size: 0;
-    line-height: 1.5;
-  }
-  
-  .words span {
-    font-size: 5rem;
-    display: inline-block;
-    animation: move 3s ease-in-out infinite;
-  }
-  
-  @keyframes move {
-    0% {
-      transform: translate(-30%, 0);
-    }
-    50% {
-      text-shadow: 0 25px 50px rgba(36, 4, 4, 0.75);
-    }
-    100% {
-      transform: translate(30%, 0);
-    }
-  }
-  
-  .words span:nth-child(2) {
-    animation-delay: 4s;
-  }
-  
-  .words span:nth-child(3) {
-    animation-delay: 1s;
-  }
-  
-  .words span:nth-child(4) {
-    animation-delay: 1.5s;
-  }
-  
-  .words span:nth-child(5) {
-    animation-delay: 2s;
-  }
-  
-  .words span:nth-child(6) {
-    animation-delay: 2.5s;
-  }
-  
-  .words span:nth-child(7) {
-    animation-delay: 3s;
-  }
+.words {
+  color: #43495f;
+  font-size: 0;
+  line-height: 1.5;
+}
 
-  /* animation slut */
+.words span {
+  font-size: 5rem;
+  display: inline-block;
+  animation: move 3s ease-in-out infinite;
+}
 
- /* Forsøg på stjernehimmelhalløj */
- 
- #dream {
+@keyframes move {
+  0% {
+    transform: translate(-30%, 0);
+  }
+  50% {
+    text-shadow: 0 25px 50px rgba(36, 4, 4, 0.75);
+  }
+  100% {
+    transform: translate(30%, 0);
+  }
+}
+
+.words span:nth-child(2) {
+  animation-delay: 4s;
+}
+
+.words span:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.words span:nth-child(4) {
+  animation-delay: 1.5s;
+}
+
+.words span:nth-child(5) {
+  animation-delay: 2s;
+}
+
+.words span:nth-child(6) {
+  animation-delay: 2.5s;
+}
+
+.words span:nth-child(7) {
+  animation-delay: 3s;
+}
+
+/* animation slut */
+
+/* Drømmehimmel */
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  
+}
+
+
+.dream {
+  background: linear-gradient(#2b1055,#7597de) ;
   position: relative; 
   width: 100%;
   height: 100vh;
@@ -169,51 +171,71 @@ padding: 100px;
 display: flex;
 justify-content: center;
 align-items: center;
-/* overflow: hidden; */
-background: linear-gradient(#2b1055,#7597de) ;
-
-}
-#dream::before {
-   content: '';
-   position: absolute;
-   bottom: 0;
-   width: 100%;
-   height: 100px;
-   z-index: 1000;
-
-
+overflow: hidden;
 }
 
-#start::before {
-  background: linear-gradient(to top,#1c0522,transparent);
 
+.dream::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top,#1c0522,transparent);
+    z-index: 1000;
 }
 
-#dream img {
-   position: absolute;
-   top: 0;
-   left: 0;
-   /* width: 100%; */
-   height: 100%;
-   object-fit: cover;
-   pointer-events: none;
+.dream img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
 }
-#dream img#moon {
-  mix-blend-mode: screen;
+.dream img#moon {
+    mix-blend-mode: screen;
 
 }
-
-#dream img#himmel {
-   z-index: 10;
-   /* overflow-x: hidden; */
-   
+.dream img#mountains_front {
+    z-index: 10;
 }
 
 #text {
-  position: absolute;
-  text-align: center;
-  color: rgb(243, 17, 17);
-  white-space: nowrap;
-  font-size: 5vw;
+position: absolute;
+right: -350px;
+color: #fff;
+white-space: nowrap;
+font-size: 7.5vw;
+z-index: 9;
+}
+#btn {
+  text-decoration: none; 
+  display: inline-block; 
+  padding: 0rem8px 30px;
+  border-radius: 40px;
+  background: #fff;
+  color: #2b1055;
+  font-size: 1.5em;
   z-index: 9;
-  }
+  transform: translateY(100px);
+
+}
+.sec {
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
+}
+.sec h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.sec p {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+
+/* https://www.youtube.com/watch?v=1wfeqDyMUx4 */
