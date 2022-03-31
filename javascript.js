@@ -15,3 +15,13 @@ window.addEventListener('scroll', function(){
     btn.style.marginTop = value * 1.5 + 'px';
     header.style.top = value * 0.5 + 'px';
 })
+
+gsap.registerPlugin(ScrollTrigger);
+
+  ScrollTrigger.create({
+    trigger: videoElem,
+    onEnter: () => videoElem.play(),
+    onEnterBack: () => videoElem.play(),
+    onLeave: () => videoElem.pause(),
+    onLeaveBack: () => videoElem.pause(),
+  });
