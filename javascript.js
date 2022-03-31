@@ -16,6 +16,9 @@ window.addEventListener('scroll', function(){
     header.style.top = value * 0.5 + 'px';
 })
 
+
+
+//Video starter automatisk og sættes på pause ved scroll
 gsap.registerPlugin(ScrollTrigger);
 
   ScrollTrigger.create({
