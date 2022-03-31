@@ -9,9 +9,18 @@ scroll-behavior: smooth;
 }
 
 body {
-    min-height: 100vh;
-    font: 400 15px/1.8 "Lato", sans-serif;
-    overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+ overflow-x: hidden;
+}
+
+h2 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  text-align: center;
 }
 
 h3 {
@@ -24,8 +33,9 @@ h3 {
 p{
   font: 20px "Lato", sans-serif;
   line-height: 2em;
-  width: 60%; 
-  padding-left: 15em;
+width: 60%;
+margin-left: auto;
+  margin-right: auto;
   
 }
 
@@ -45,19 +55,26 @@ p{
 }
 .bgimg-1 {
   background-image: url("sky.gif");
-  min-height: 100%;
+  min-height: 600px;
 }
 
 
 .bgimg-2 {
   background-color: #12073b;
-  background-image: url("stars.png");
+  background-image: url("guld.png");
   min-height: 600px;
 }
 
 .bgimg-3 {
   background-image: url("img_hoparallax3.jpg");
   min-height: 400px;
+}
+
+.overskriftimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
 }
 
 .caption {
@@ -84,7 +101,7 @@ p{
   background: #43495f;
   display: flex;
   flex-direction: column;
-  height: 150vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   
