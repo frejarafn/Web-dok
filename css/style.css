@@ -61,8 +61,11 @@ margin-left: auto;
 
 .bgimg-2 {
   background-color: #12073b;
-  background-image: url("guld.png");
+  background-image: url("../images/trist.png");
   min-height: 600px;
+  width: 100%;
+  object-fit: cover;
+
 }
 
 .bgimg-3 {
@@ -101,7 +104,7 @@ margin-left: auto;
   background: #9cace9;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 70vh;
   justify-content: center;
   align-items: center;
   
@@ -264,3 +267,12 @@ video{
   padding-left: 23em;
  
 }
+
+
+#trist {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
