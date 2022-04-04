@@ -319,3 +319,14 @@ video{
   height: 200px;
   background-image: linear-gradient(transparent, #401881);
 }
+
+#lyd {
+  width: 50px;
+  
+}
+
+#lyd2 {
+  width: 50px;
+  display:flex;
+  gap: 200px;
+}
