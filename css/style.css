@@ -329,6 +329,9 @@ video{
 
 #lyd {
   width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
 }
 
@@ -336,4 +339,5 @@ video{
   width: 50px;
   display:flex;
   gap: 200px;
+ 
 }
