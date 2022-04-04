@@ -6,6 +6,8 @@ let mountains_front = document.getElementById('mountains_front');
 // let header = document.querySelector('header');
 let dream = document.getElementById('dream');
 let video = document.getElementById('video');
+let video2 = document.getElementById('video2');
+
 
 
 
