@@ -114,7 +114,7 @@ margin-left: auto;
 
 .section1 {
   font-family: "Archivo Black", sans-serif;
-  background: #AAE1FF;
+  background: #0670a8;
   display: flex;
   flex-direction: column;
   height: 70vh;
@@ -124,7 +124,7 @@ margin-left: auto;
 }
 
 .section {
-  background: #AAE1FF;
+  background: #0670a8;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -134,7 +134,7 @@ margin-left: auto;
 }
 
 .words {
-  color: #AAE1FF;
+  color: #0670a8;
   font-size: 0;
   line-height: 1.5;
 }
@@ -303,5 +303,5 @@ video{
 /* gradient */
 #grad {
   height: 200px;
-  background-image: linear-gradient(#AAE1FF, transparent);
+  background-image: linear-gradient(#0670a8, transparent);
 }
