@@ -20,14 +20,12 @@ h2 {
   font: 20px "Lato", sans-serif;
   color: #111;
   text-align: center;
+  padding-top: 3em;
+  padding-bottom: 1em;
+
 }
 
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: #111;
-}
+
 
 p{
   font: 20px "Lato", sans-serif;
@@ -277,7 +275,7 @@ z-index: 9;
 video{
   max-width: 3000px;
   height:490px;
-  padding-left: 15em;
+  padding-left: 15.9em;
  
 }
 
@@ -290,7 +288,8 @@ video{
 .mobilgif{
   max-width: 100%;
   height: 550px;
-  padding-left: 37.8em;
+  padding-left: 36em;
+  padding-top: 1em;
 }
 
 
