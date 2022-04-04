@@ -42,3 +42,9 @@ window.addEventListener('scroll', function(){
     video.muted = !video.muted
   }
 
+ 
+  function toggleSound2(){
+    console.log(video)
+    video2.muted = !video2.muted
+  }
+

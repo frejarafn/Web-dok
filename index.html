@@ -127,9 +127,7 @@
           <br>
           <br>
 
-          <div class="vid">
-            <button onclick="toggleSound()">KLIK</button>
-
+         
        
 
           <h2>Et studie med høje forventninger</h2>
@@ -144,11 +142,14 @@
 
             <br>
            
-            <video id="video" playsinline autoplay muted loop poster="">
-              <source src="images/deprivideo.mp4" id="sample" type="video/mp4" > 
-            </video>
-          </div> 
-          
+            <div class="vid">
+              <button class="lyd" onclick="toggleSound()"><img src="images/lyd.png" alt=""></button>
+
+              <video id="video" playsinline autoplay muted loop poster="">
+                <source src="images/deprivideo.mp4" id="sample" type="video/mp4" > 
+              </video>
+            </div> 
+
        
          
 
@@ -198,13 +199,15 @@
                  </p>
              
                  <div class="vid">
-                  <button onclick="toggleSound()">KLIK</button>
+                  <button  onclick="toggleSound2()"><img src="images/lyd.png" alt=""></button>
     
                   <video id="video2" playsinline autoplay muted loop poster="">
                     <source src="images/eaa.mp4" id="sample2" type="video/mp4" > 
                   </video>
                 </div>
+
                 <img class="billede" src="images/venner.png" alt="venner">
+            
 
    
 

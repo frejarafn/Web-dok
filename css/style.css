@@ -286,11 +286,16 @@ video{
  
 }
 
+#lyd {
+  width: 20px;
+}
+
 
 #trist {
   max-width: 100%;
   height: auto;
 }
+
 
 .mobilgif{
   max-width: 100%;
