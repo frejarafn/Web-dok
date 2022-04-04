@@ -58,11 +58,9 @@ margin-left: auto;
 
 
 .bgimg-2 {
-  background-color: #12073b;
-  background-clip: url("../images/eaa.mp4");
+  background-image: url("../images/smiley.gif");
   min-height: 600px;
   width: 100%;
-  object-fit: cover;
 
 }
 
