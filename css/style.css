@@ -97,6 +97,13 @@ margin-left: auto;
   
 }
 
+.billede{
+ max-width: 100%;
+ height: 500px;
+ padding-left: 26em;
+
+}
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -269,9 +276,9 @@ z-index: 9;
 /* https://www.youtube.com/watch?v=1wfeqDyMUx4 */
 
 video{
-  max-width: 100%;
-  height: 400px;
-  padding-left: 23em;
+  max-width: 3000px;
+  height:490px;
+  padding-left: 17em;
  
 }
 
@@ -281,5 +288,15 @@ video{
   height: auto;
 }
 
+.mobilgif{
+  max-width: 100%;
+  height: 550px;
+  padding-left: 35em;
+}
 
 
+/* gradient */
+#grad {
+  height: 200px;
+  background-image: linear-gradient(#9cace9, transparent);
+}
