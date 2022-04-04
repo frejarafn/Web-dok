@@ -283,7 +283,13 @@ z-index: 9;
 video{
   max-width: 3000px;
   height:490px;
-  padding-left: 15.9em;
+  padding-left: 18em;
+
+}
+#video2{
+  max-width: 3000px;
+  height:490px;
+  padding-left: 14.2em;
  
  
 }
