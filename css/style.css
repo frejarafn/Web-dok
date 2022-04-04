@@ -276,7 +276,7 @@ z-index: 9;
 /* https://www.youtube.com/watch?v=1wfeqDyMUx4 */
 
 video{
-  max-width: 100%;
+  max-width: 120%;
   height: 400px;
   padding-left: 23em;
  
@@ -293,3 +293,8 @@ video{
   height: 550px;
 }
 
+/* gradient */
+#grad {
+  height: 200px;
+  background-image: linear-gradient(#9cace9, transparent);
+}
