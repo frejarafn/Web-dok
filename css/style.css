@@ -287,8 +287,10 @@ video{
  
 }
 
-#lyd {
-  width: 20px;
+.lyd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
