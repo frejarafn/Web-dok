@@ -315,5 +315,5 @@ video{
 
 #grad2 {
   height: 200px;
-  background-image: linear-gradient(transparent, #401881);
+  background-image: linear-gradient(#bde1f5, transparent);
 }
