@@ -282,21 +282,40 @@ z-index: 9;
 video{
   max-width: 3000px;
   height:490px;
-  padding-left: 18em;
+  /* padding-left: 18em; */
 
 }
 #video2{
   max-width: 3000px;
   height:490px;
-  padding-left: 14.2em;
  
  
+}
+
+.vid {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.vid > .lyd {
+  /* display: none; */
+  /* left: -50px; */
+  opacity: 0;
+}
+.vid:hover > .lyd {
+  /* display: flex; */
+  /* left: 50%; */
+  opacity: 1;
 }
 
 .lyd {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  z-index: 1;
+  transition: 1s ease-out;
 }
 
 
