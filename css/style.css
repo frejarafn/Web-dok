@@ -302,14 +302,14 @@ video{
 }
 
 .vid > .lyd {
-  /* display: none; */
-  /* left: -50px; */
-  opacity: 0;
+  display: none;
+  left: -50px;
+  /* opacity: 0; */
 }
 .vid:hover > .lyd {
-  /* display: flex; */
-  /* left: 50%; */
-  opacity: 1;
+  display: flex;
+  left: 50%;
+  /* opacity: 1; */
 }
 
 .lyd {
