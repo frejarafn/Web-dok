@@ -31,13 +31,13 @@ window.addEventListener('scroll', function(){
   function toggleSound(){
     console.log(video)
     video.muted = !video.muted
-    lyd.src = video.muted ? "images/lyd.png" : "images/lydaf.png"
+    lyd.src = video.muted ? "images/lydaf.png" : "images/lyd.png"
   }
 
  
   function toggleSound2(){
     console.log(video)
     video2.muted = !video2.muted
-    lyd2.src = video2.muted ? "images/lyd.png" : "images/lydaf.png"
+    lyd2.src = video2.muted ? "images/lydaf.png" : "images/lyd.png"
   }
 
