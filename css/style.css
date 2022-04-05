@@ -1,4 +1,3 @@
-  /* FORSØG PÅ STJERNEHIMMEL */
   @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
 *
 {
@@ -12,10 +11,7 @@ body {
   height: 100vh;
   margin: 0;
   overflow-x: hidden;
-
 }
-
-
 
 h2 {
   letter-spacing: 5px;
@@ -25,23 +21,18 @@ h2 {
   text-align: center;
   padding-top: 3em;
   padding-bottom: 1em;
-
 }
 
-
-p{
+p {
   font: 19px "Lato", sans-serif;
   line-height: 2em;
-width: 60%;
-
-margin-left: auto;
+  width: 60%;
+  margin-left: auto;
   margin-right: auto;
-  
 }
 
 .border{
   font-family: teeshirt, sans-serif;
- 
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -50,25 +41,17 @@ margin-left: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
-
 }
+
 .bgimg-1 {
   background-image: url("../images/skyfreja.gif");
   min-height: 600px;
 }
 
-
 .bgimg-2 {
   background-image: url("../images/smiley.gif");
   min-height: 600px;
   width: 100%;
-
-}
-
-.bgimg-3 {
-  background-image: url("img_hoparallax3.jpg");
-  min-height: 400px;
 }
 
 .overskriftimg {
@@ -94,7 +77,6 @@ margin-left: auto;
   width: 100%;
   text-align: center;
   color: #000;
-  
 }
 
 .billede{
@@ -102,7 +84,6 @@ margin-left: auto;
  height: 300px;
  padding-left: 36em;
  padding-top: 3em;
-
 }
 
 /* Turn off parallax scrolling for tablets and phones */
@@ -113,7 +94,6 @@ margin-left: auto;
 }
 
 /* animation af bølgende ord  start - https://codepen.io/cbanlawi/pen/MWbemYP*/
-
 .section1 {
   font-family: "Archivo Black", sans-serif;
   background: #bde1f5;
@@ -122,7 +102,6 @@ margin-left: auto;
   height: 70vh;
   justify-content: center;
   align-items: center;
-  
 }
 
 .section {
@@ -132,7 +111,6 @@ margin-left: auto;
   height: 100vh;
   justify-content: center;
   align-items: center;
-  
 }
 
 .words {
@@ -185,7 +163,9 @@ margin-left: auto;
 
 /* animation slut */
 
+
 /* Drømmehimmel */
+/* https://www.youtube.com/watch?v=1wfeqDyMUx4 */
 
 .caption span.border {
   background-color: #111;
@@ -193,62 +173,57 @@ margin-left: auto;
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
-  
 }
 
-
 .dream {
-
   background: linear-gradient(#401881,#7597de) ;
   position: relative; 
   width: 100%;
   height: 100vh;
-padding: 100px;
-display: flex;
-justify-content: center;
-align-items: center;
-overflow: hidden;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
-
 .dream::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
-    z-index: 1000;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 1000;
 }
 
 .dream img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
 }
-.dream img#moon {
-    mix-blend-mode: screen;
 
+.dream img#moon {
+ mix-blend-mode: screen;
 }
+
 .dream img#mountains_front {
-    z-index: 10;
+ z-index: 10;
 }
 
 #text {
   font-family: rumba-large, sans-serif;
-
   font-weight: 400;
-  
   font-style: normal;
-position: absolute;
-right: -350px;
-color: #fff;
-white-space: nowrap;
-font-size: 7.5vw;
-z-index: 9;
+  position: absolute;
+  right: -350px;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 7.5vw;
+  z-index: 9;
 }
 
 #btn {
@@ -261,38 +236,34 @@ z-index: 9;
   font-size: 1.5em;
   z-index: 9;
   transform: translateY(100px);
-
 }
+
 .sec {
-    position: relative;
-    padding: 100px;
-    background: #1c0522;
+  position: relative;
+  padding: 100px;
+  background: #1c0522;
 }
+
 .sec h2 {
-    font-size: 3.5em;
-    margin-bottom: 10px;
-    color: #fff;
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  color: #fff;
 }
+
 .sec p {
-    font-size: 1.2em;
-    color: #fff;
+  font-size: 1.2em;
+  color: #fff;
 }
-/* https://www.youtube.com/watch?v=1wfeqDyMUx4 */
 
-
-/* https://www.youtube.com/watch?v=1wfeqDyMUx4 */
-
+/* video css */
 video{
   max-width: 3000px;
   height:490px;
-  /* padding-left: 18em; */
-
 }
+
 #video2{
   max-width: 3000px;
   height:490px;
- 
- 
 }
 
 .vid {
@@ -306,6 +277,7 @@ video{
   left: -50px;
   /* opacity: 0; */
 }
+
 .vid:hover > .lyd {
   display: flex;
   left: 50%;
@@ -321,13 +293,10 @@ video{
   transition: 1s ease-out;
 }
 
-
 #trist {
   max-width: 100%;
   height: auto;
-  
 }
-
 
 .mobilgif{
   max-width: 100%;
@@ -353,12 +322,10 @@ video{
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 #lyd2 {
   width: 50px;
   display:flex;
   gap: 200px;
- 
 }
